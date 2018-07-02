@@ -49,6 +49,7 @@ transition: 0.2s;
 }
 
 header small{
+	margin-top: 8px;
  font-size: 12px;
  display: block;
  text-align: center;
@@ -179,13 +180,22 @@ line-height: 39.8px;
 	.header-pretitle{
 		margin-top: 60px;
 	}
+	.header-title{
+		font-size: 45px;
+	}
 }
 @media (max-width: 992px) {
+	header{
+		text-align: center;
+	}
+	.header-button-block{
+		margin: 0 auto;
+	}
 	.header-img{
 		display: none;
 	}
 	.header-pretitle{
-		margin-top: 10px;
+		margin-top: 1px;
 	}
 	.footer-author{
 		font-size: 18px;
@@ -203,6 +213,13 @@ line-height: 39.8px;
 	.footer-button{
 		font-size: 14px;
 	}
+	footer{
+		padding-top: 25px;
+		padding-bottom: 50px;
+	}
+	.header-button:hover{
+			
+		}
 }
 @media (max-width: 768px) {
 	.social-block img{
@@ -219,5 +236,16 @@ line-height: 39.8px;
 	}
 	.footer-author, .footer-text{
 		text-align: center;
+	}
+		footer{
+		padding-top: 5px;
+		padding-bottom: 30px;
+		font-size: 18px;
+	}
+	header{
+		padding-top: 40px;
+	}
+	.social-block{
+
 	}
 }
